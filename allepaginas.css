@@ -1,0 +1,14 @@
+p {
+    font-size: medium;
+    color: rgb(3, 3, 101)
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    width: 18.75rem;
+}
