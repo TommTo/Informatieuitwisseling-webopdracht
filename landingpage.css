@@ -1,3 +1,36 @@
 p {
     color: rgb(200, 2, 150);
 }
+
+/* Container for images and text */
+.image-container {
+    display: flex;               /* Align items side by side */
+    gap: 20px;                   /* Space between items */
+    justify-content: space-evenly; /* Spread items evenly */
+    margin-top: 20px;            /* Add spacing above the images */
+}
+
+/* Each image and its corresponding text */
+.image-item {
+    text-align: center;          /* Center text below the image */
+    max-width: 300px;            /* Set a maximum width for each item */
+}
+
+/* Style the images */
+.image-item img {
+    width: 100%;                 /* Make images responsive */
+    height: auto;                /* Maintain aspect ratio */
+    border: 1px solid #ccc;      /* Optional: Add a border */
+    border-radius: 4px;          /* Optional: Round the corners */
+}
+
+/* Adjust text spacing */
+.image-item p {
+    margin-bottom: 10px;         /* Space between text and image */
+}
+
+.image-item span {
+    display: block;              /* Ensure the span is on its own line */
+    margin-top: 10px;            /* Space above the span */
+    font-weight: bold;           /* Make it stand out */
+}
