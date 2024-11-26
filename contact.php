@@ -24,17 +24,9 @@
     <h3>Contactgegevens:</h3>
     <p>survivalshop@gmail.com</p>
     <p>+31 6 69696969</p>
-
-    <form action="contact.php" method="post">
-<!-- de <br> betekent break. Met break wordt de volgende tekst op een nieuwe lijn gezet.-->
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="" required><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="" required><br>
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email" value="jouwemail@email.com" required><br>
-        <br>
-        <input type="submit" id="verstuur" name="verstuur" value="Versturen">
-    </form>
+    
+    Welcome <?php echo $_POST["fname"]; ?><br>
+    Thank you for filling in the form. We will contact you soon on  <?php echo $_POST["email"]; ?><br>
+    ~ The flashlight team
 </body>
 </html>
