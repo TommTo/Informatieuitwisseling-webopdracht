@@ -27,6 +27,6 @@
     
     Welcome <?php echo $_POST["fname"]; ?><br>
     Thank you for filling in the form. We will contact you soon on  <?php echo $_POST["email"]; ?><br>
-    ~ The flashlight team
+    ~ Survival Store Team
 </body>
 </html>
