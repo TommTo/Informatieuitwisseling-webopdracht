@@ -20,7 +20,7 @@
 
 
 
-    <h2>h2 (omdat het moet)</h2>
+    <h2>Contact</h2>
     <h3>Contactgegevens:</h3>
     <p>survivalshop@gmail.com</p>
     <p>+31 6 69696969</p>
