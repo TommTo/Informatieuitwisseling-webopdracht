@@ -1,13 +1,8 @@
-p {
-    color: rgb(200, 2, 150);
-}
-
 /* Container for images and text */
 .image-container {
-    display: flex;               /* Align items side by side */
-    gap: 20px;                   /* Space between items */
-    justify-content: space-evenly; /* Spread items evenly */
-    margin-top: 20px;            /* Add spacing above the images */
+    display: flex;              /* Makes items align horizontally */
+    align-items: flex-start;    /* Align items to the top */
+    gap: 20px;                  /* Adds consistent space between items */
 }
 
 /* Each image and its corresponding text */
@@ -16,12 +11,17 @@ p {
     max-width: 300px;            /* Set a maximum width for each item */
 }
 
-/* Style the images */
-.image-item img {
-    width: 100%;                 /* Make images responsive */
+/* Style the video */
+video {
+    max-width: 300px;            /* Optional: limit video width */
     height: auto;                /* Maintain aspect ratio */
-    border: 1px solid #ccc;      /* Optional: Add a border */
-    border-radius: 4px;          /* Optional: Round the corners */
+    display: block;              /* Ensure it behaves like a block element */
+}
+
+/* Style the images */
+img {
+    max-width: 100%;             /* Ensures images are responsive */
+    height: auto;                /* Maintain aspect ratio */
 }
 
 /* Adjust text spacing */
@@ -29,8 +29,13 @@ p {
     margin-bottom: 10px;         /* Space between text and image */
 }
 
-.image-item span {
+.image-container span {
     display: block;              /* Ensure the span is on its own line */
     margin-top: 10px;            /* Space above the span */
     font-weight: bold;           /* Make it stand out */
+}
+
+/* Style for paragraph text */
+p {
+    color: rgb(200, 2, 150);
 }
