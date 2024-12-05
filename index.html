@@ -9,6 +9,7 @@
     
     <title>Landing Page</title>
     <script src="https://kit.fontawesome.com/e0a35a577d.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <h1>Survival Shop</h1>
@@ -34,41 +35,56 @@
     </section>
 
     <section>
-        <h3>Featured Flashlights</h3>
-        <ul>
-            <li>Coast HX5 Flashlight – Compact and powerful.</li>
-            <li>Coast HX5 Flashlight Vertical – Ideal for versatile lighting needs.</li>
-        </ul>
-    </section>
-
-    <section>
         <h3>Why Choose Our Flashlights?</h3>
         <p>Our flashlights are built for durability, brightness, and reliability. From tactical options to everyday carry models, we ensure that quality and performance are at the forefront of every product we offer.</p>
-        <p>Don’t settle for dim lights—choose a flashlight that shines brighter and lasts longer.</p>
+        <p>Don't settle for dim lights—choose a flashlight that shines brighter and lasts longer.</p>
     </section>
   
-    <div class="image-container">
-        
-        <div class="image-item">
-            <span>Coast HX4 Flashlight Vertical</span>
-            <img src="https://wildernesssurvivalsystems.com/cdn/shop/products/DSCN0812_1000x.jpg?v=1621387628" alt="Coast HX5 Flashlight">
-        </div>
-        <div class="image-item">
-            <span>Coast HX4 Flashlight Vertical</span>
-            <video width="300" height="240" controls>
-                <p>SOG Dark Energy 247A LED</p>
-                <source src="video.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video> 
+    <div class="resp_design">
+        <div class="background_custom"></div>
+        <h1 style="margin-top: 0px; position:relative; top:2vh;" id = "highlight_text">Highlight of the day:</h1>
+        <!-- Slideshow container -->
+         <div class="slideshow-container">
+
+        <!-- Full-width images met nummers en caption text -->
+        <div class="mySlides fade" style = "display:block;">
+            <!--De <br> kan mogelijk voor problemen zorgen met responsive design-->
+            <!--Indien dat het geval is app mij (Tome)-->
+            <div class="numbertext"><br></div>
+            <video class="resp_images" controls> 
+                <source src="video.mp4" height = "400px" width= "350px" type="video/mp4">
+            </video>
+            <div class="capText">Coast HX5 Flashlight</div>
         </div>
 
-        <!-- Second image and text -->
-        <div class="image-item">
-            <span>Coast HX5 Flashlight Vertical</span>
-            <img src="https://wildernesssurvivalsystems.com/cdn/shop/products/DSCN0811_1200x1200.jpg?v=1621387769" alt="Coast HX5 Flashlight vertical">
+         <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+                <img class="resp_images" src="https://wildernesssurvivalsystems.com/cdn/shop/products/DSCN0812_1000x.jpg?v=1621387628" alt="Coast HX5 Flashlight">
+            <div class="capText">Coast HX5 Flashlight</div>
         </div>
+  
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+                <img class="resp_images" src="https://wildernesssurvivalsystems.com/cdn/shop/products/DSCN0811_1200x1200.jpg?v=1621387769" alt="Coast HX5 Flashlight vertical">
+            <div class="capText">Coast HX5 Flashlight</div>
+        </div>
+  
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- dots/circles onderaan -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+          <p>Why Choose the Coast HX5 Flashlight?
+
+            The Coast HX5 Flashlight offers unbeatable portability, durability, and performance. Its compact design fits easily in your pocket, while the Pure Beam Focusing Optic provides both wide flood and long-distance spot beams. Compatible with AA and rechargeable batteries, it ensures flexibility in any situation. Built tough with an aluminum body, it’s weatherproof and impact-resistant—perfect for adventures or emergencies. Affordable and reliable, the HX5 is a smart choice for anyone needing powerful, versatile lighting.</p>
     </div>
-</div>
 
     
 
