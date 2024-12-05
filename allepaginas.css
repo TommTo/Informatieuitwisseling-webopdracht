@@ -5,11 +5,15 @@
     font-family:'Oswald', 'Tahoma'
 }
 
-p {
+p,ul {
     font-size: 1rem;
-    color: rgb(200, 2, 150);
+    color: rgb(60,60,60);
 }
 
+.body {
+    width: 70%;
+    margin: auto;
+}
 h1 {
     text-align: center;
 }
