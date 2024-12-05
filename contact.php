@@ -4,10 +4,10 @@ $subject = "Survival Store Contact Request";
 $message = "Thank you for your contact request, {$_POST['fname']} {$_POST['lname']}\nWe will contact you at: {$_POST['email']}";
 $from = "WC311@webspace.science.uu.nl";
 $headers = "From:" . $from;
-// the message
 
 
-// use wordwrap() if lines are longer than 70 characters
+
+
 $msg = wordwrap($msg,70);
 
 mail($to,$subject,$message,$headers);
