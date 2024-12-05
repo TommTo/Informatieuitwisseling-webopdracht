@@ -25,25 +25,24 @@ img {
     width: 18.75rem;
 }
 
-/* Center the nav */
 nav {
-    display: flex;             /* Enables flexible layout */
-    justify-content: center;   /* Centers items horizontally */
-    align-items: center;       /* Centers items vertically (if needed) */
-    margin: 0 auto;            /* Ensures it stays centered if there is a fixed width */
-    text-align: center;        /* Aligns text inside the nav */
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+    margin: 0 auto;            
+    text-align: center;       
 }
 
-/* Style the links if needed */
+
 nav a {
-    text-decoration: none;    /* Removes underline from links */
-    margin: 0 15px;           /* Adds spacing between links */
-    color: #000;              /* Default link color */
+    text-decoration: none;    
+    margin: 0 15px;           
+    color: #000;             
 }
 
-/* Add padding to the body */
+
 body {
-    margin: 0;               /* Reset default browser margins */
-    padding-left: 30px;           /* Add space inside the edges of the body */
-    box-sizing: border-box;  /* Ensure padding is included in width/height calculations */
+    margin: 0;              
+    padding-left: 30px;          
+    box-sizing: border-box;  
 }

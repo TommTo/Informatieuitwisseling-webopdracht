@@ -1,10 +1,10 @@
 
 body {
     display: block;
-    justify-content: center; /* Center horizontally */
-    align-items: center;    /* Center vertically */
-    height: 100vh;          /* Full viewport height */
-    margin: 0;              /* Remove default body margin */
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;          
+    margin: 0;              
 }
 
 .story {
