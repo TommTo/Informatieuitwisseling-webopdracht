@@ -92,18 +92,18 @@ img {
   }
   
   
-  /* Position the "next button" to the right */
+
   .next {
     right: -3px;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
+
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
-  /* Caption text */
+
   .capText {
     color: #000000;
     background-color: #e4e4e4f3;

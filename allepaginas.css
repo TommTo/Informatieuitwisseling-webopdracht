@@ -9,7 +9,7 @@ p,ul {
     font-size: 1rem;
     color: rgb(81, 90, 71);
 }
-
+/* we hebben ook een class body, omdat we stukken tekst die links uitgelijnd zijn een margin willen geven, die geldt echter niet voor elke body*/
 .body {
     width: 70%;
     margin: auto;
