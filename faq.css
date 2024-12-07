@@ -1,4 +1,4 @@
-/* Smartphones (portrait). Vertel hier ook welke je gekozen hebt----------- */
+/* Smartphones (portrait). */
 
 @media only screen 
 and (min-width : 320px) 
@@ -8,23 +8,27 @@ and (max-width : 767px)
 h3 {
     font-size: medium;
     margin-top: 15px;
+
+}
+p, h3 {
+    margin-left: -20px;
+}
+
 }
 
 
-}
 
-
-/* Tablet (portrait). Vertel hier ook welke je gekozen hebt ----------- */
+/* Tablet (portrait). */
 @media only screen
 and (min-width : 768px)  
 and (max-width :  1050px) 
 {
-
+/* Styles */
 
 
 }
 
-/* Laptop/PC. Vertel hier ook welke je gekozen hebt ----------- */
+/* Laptop/PC.  */
 @media only screen
 and (min-width : 1050px)  
 and (max-width : 1440px) 
