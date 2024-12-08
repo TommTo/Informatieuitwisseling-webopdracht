@@ -285,6 +285,6 @@ and (min-width : 1050px)
 and (max-width : 4000px) 
 {
   .image-item img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 }
